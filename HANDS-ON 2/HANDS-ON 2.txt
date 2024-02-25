@@ -1,0 +1,12 @@
+(assert (enfermedad gripe fiebre dolor_de_cabeza fatiga escalofríos))
+(assert (enfermedad hipertension tos dificultad_respiratoria dolor_de_pecho fiebre))
+(assert (enfermedad diabetes erupción_cutánea picazón fiebre malestar_general))
+(assert (enfermedad asma dolor_de_garganta fiebre fatiga ganglios_inflamados))
+(assert (enfermedad insomnio dolor_abdominal diarrea vómitos fiebre))
+(assert (enfermedad artritis dolor_articular inflamación_en_articulaciones fiebre fatiga))
+
+(defrule obtenerEnfermedades (enfermedad ?e1 ?s1 ?s2 ?st1 ?st2) => (printout t ?e1 crlf))
+(defrule obtenerSignos (enfermedad ?e1 ?s1 ?s2 ?st1 ?st2) => (printout t ?s1 ?s2 crlf))
+(defrule obtenerSintomas (enfermedad ?e1 ?s1 ?s2 ?st1 ?st2) => (printout t ?st1 ?st2 crlf))
+
+(defrule eliminar-enfermedad ?f <- (disease ?id ?s1 ?s2 ?st1 ?st2) => (retract ?f)(printout t "Enfermedad eliminada" crlf))
