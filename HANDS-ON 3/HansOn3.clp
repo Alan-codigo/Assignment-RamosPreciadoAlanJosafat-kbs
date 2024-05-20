@@ -30,12 +30,4 @@ tienes e1
 CLIPS>
 
 
-enfermedades
-signo1 signo2 sintoma1 sintoma2 => enfermedad 1
-signo1 signo3 sintoma1 sintoma3 => enfermedad 2
-signo4 signo5 sintoma4 sintoma5 => enfermedad 3
-signo4 signo6 sintoma4 sintoma6 => enfermedad 4
-signo7 signo8 sintoma7 sintoma8 => enfermedad 5
-signo7 signo9 sintoma7 sintoma9 => enfermedad 6
-
 
