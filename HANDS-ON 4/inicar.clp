@@ -1,0 +1,8 @@
+(clear)
+(load "Assignment-RamosPreciadoAlanJosafat-kbs\HANDS-ON 4\TEMPLATES.clp")
+(load "Assignment-RamosPreciadoAlanJosafat-kbs\HANDS-ON 4\verdaderos.clp")
+(load "Assignment-RamosPreciadoAlanJosafat-kbs\HANDS-ON 4\reglas.clp")
+(reset)
+(facts)
+(rules)
+(run)
